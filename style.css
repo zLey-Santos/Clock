@@ -1,0 +1,18 @@
+ body {
+  display: flex; /* Ativa o Flexbox */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Altura da tela completa */
+  margin: 0; /* Remove margens padrão */
+  background-color: #1E1E1E; /* Cor de fundo */
+}
+
+.clock {
+  padding: 20px; /*Margens interna*/
+  background-color: #333; /* Cor de fundo da div */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 0 5px rgba(58, 58, 58, 0.5); /* Sombra para efeito */
+  color: #00ff00; /*Cor da fonte*/
+  font-size: 50px; /*Tamanho da fonte*/
+  font-family: monospace; /*Tipo da Fonte*/
+}
